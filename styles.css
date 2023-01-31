@@ -1,5 +1,10 @@
 .holder{
-	display: grid;
-	grid-template-columns: repeat(2, 1fr)
-	grid-template-rows: repeat(2, 100px);  
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+    grid-template-rows: repeat(2,200px);
+	background-color: black
+}
+.grid-item{
+	background-color: violet;
+	border: 2px solid black;
 }
